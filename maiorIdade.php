@@ -5,6 +5,11 @@
         <title>Verificar Idade</title>
     </head>
     <body>
+        <header role="heading">
+            <h1>
+                Verificar Maior Idade Penal
+            </h1>
+        </header>
         <main role="main">
             <div class="form">
                 <form action="src/verificaidade.php" method="post">
