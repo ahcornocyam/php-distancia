@@ -1,6 +1,4 @@
 <?php
-
-<<<<<<< HEAD
 /*
  * @Name: index.php
  * @Date: 8/03/2015
@@ -8,8 +6,6 @@
  * de idade
  */
 
-=======
->>>>>>> c61555fcebe658f65f401e30d2e18d83b7b91833
 header('Content-type:text/html;charset=utf-8');
 
 $maiorIdade = function ($idade){
