@@ -1,16 +1,24 @@
-<?php
-/*
- * @Name: index.php
- * @Date: 8/03/2015
- * @Description: função simples para saber se uma pessoa é maior ou menor
- * de idade
- */
-
-header('Content-type:text/html;charset=utf-8');
-
-$maiorIdade = function ($idade){
-  echo ($idade > 18)? "Você é maior de idade ": "Você é menor de idade";  
-};
-
-/* @var $maiorIdade int*/
-$maiorIdade(18);
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Verificar Idade</title>
+    </head>
+    <body>
+        <main role="main">
+            <div class="form">
+                <form action="src/verificaidade.php" method="post">
+                    <label for="inputNome">
+                        Nome:
+                    </label>
+                    <input type="text" name="inputNome" value="" placeholder="Digite seu nome" required/>
+                    <label for="inputIdade">
+                        Idade:
+                    </label>
+                    <input type="number" name="inputIdade" value="" required/>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </main>
+    </body>    
+</html>
