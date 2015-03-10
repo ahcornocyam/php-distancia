@@ -19,10 +19,11 @@ $idade = filter_input(INPUT_POST, 'inputIdade', FILTER_VALIDATE_INT);
  */
 $maiorIdade = function ($nome,$idade){
     
-    return  ($idade > 18)? "{$nome}, você é maior de idade ": "{$nome}, você é menor de idade"; 
+    return  ($idade >= 18)? "{$nome}, você é maior de idade ": "{$nome}, você é menor de idade\n<br/>"; 
   
 };
 
 #chamando a função maiorIdade
 /* @var $maiorIdade type function */
 echo $maiorIdade($nome , $idade);
+echo "<a href=\"../maiorIdade.php\">Voltar</a>\n<br/>";
