@@ -26,4 +26,4 @@ $maiorIdade = function ($nome,$idade){
 #chamando a função maiorIdade
 /* @var $maiorIdade type function */
 echo $maiorIdade($nome , $idade);
-echo "<a href=\"../maiorIdade.php\">Voltar</a>\n<br/>";
+echo "<a href=\"maiorIdade.php\">Voltar</a>\n<br/>";

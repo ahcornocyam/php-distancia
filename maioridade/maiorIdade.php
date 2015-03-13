@@ -12,7 +12,7 @@
         </header>
         <main role="main">
             <div class="form">
-                <form action="estudo/verificaidade.php" method="post">
+                <form action="verificaidade.php" method="post">
                     <label for="inputNome">
                         Nome:
                     </label>

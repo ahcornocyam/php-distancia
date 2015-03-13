@@ -24,7 +24,7 @@
         <main role="main">
             <div class="container-fluid">
                 <div class="col-lg-offset-2 col-lg-8 col-lg-offset-2">
-                    <form action="estudo/dados.php" method="post"class="form-horizontal" target="">
+                    <form action="dados.php" method="post"class="form-horizontal" target="">
                         
                         <div class="bg-danger form-group-lg">
                             <?php

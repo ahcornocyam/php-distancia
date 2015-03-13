@@ -17,7 +17,6 @@
         }
         if(count($erro) > 0){ 
             $_SESSION['erro'] = $erro;
-            \header('refresh:1,url=../contato.php');
+            \header('refresh:1,url=contato.php');
             echo "Carregando...";
         }
-
